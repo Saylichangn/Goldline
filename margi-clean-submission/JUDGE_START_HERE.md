@@ -4,8 +4,8 @@
 
 | | |
 |---|---|
-| **Repo** | [github.com/Stormynubee/Margi](https://github.com/Stormynubee/Margi) |
-| **Release tag** | [`v2.0.0-production`](https://github.com/Stormynubee/Margi/releases/tag/v2.0.0-production) (demo build — not clinical production) |
+| **Repo** | [github.com/Saylichangn/Margi](https://github.com/Saylichangn/Margi) |
+| **Release tag** | [`v2.0.0-production`](https://github.com/Saylichangn/Margi/releases/tag/v2.0.0-production) (demo build — not clinical production) |
 | **Brief site** | [roadsafetyhackathon-six.vercel.app](https://roadsafetyhackathon-six.vercel.app) |
 | **Full checklist** | [docs/SUBMISSION.md](docs/SUBMISSION.md) |
 
@@ -54,7 +54,7 @@ No Gradle or JDK required if you use the release APK.
 
 **Unit tests:** `cd novadrive-mobile && npm test` — **274** passed tests across 80 suites.
 
-**APK CI:** [Android debug APK workflow](https://github.com/Stormynubee/Margi/actions/workflows/android-apk.yml) — download artifact **`margi-debug.apk`** if the release asset is not yet attached.
+**APK CI:** [Android debug APK workflow](https://github.com/Saylichangn/Margi/actions/workflows/android-apk.yml) — download artifact **`margi-debug.apk`** if the release asset is not yet attached.
 
 ---
 

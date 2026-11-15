@@ -25,7 +25,7 @@ OVERPASS_ENDPOINTS = (
     "https://overpass-api.de/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
 )
-USER_AGENT = "Margi-C1-POI-Ingest/1.0 (+https://github.com/Stormynubee/Margi)"
+USER_AGENT = "Margi-C1-POI-Ingest/1.0 (+https://github.com/Saylichangn/Margi)"
 
 
 def load_bbox(bbox_json: Path | None) -> tuple[float, float, float, float]:

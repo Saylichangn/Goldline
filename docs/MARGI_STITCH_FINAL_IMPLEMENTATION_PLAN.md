@@ -422,7 +422,7 @@ Apply `HudAppBar` + `ProgressRail` + `GlassCard` consistently.
 | Refinement plan (markdown) | `docs/MARGI_REFINEMENT_PLAN.md` |
 | P0 implementation plan | `docs/MARGI_FINAL_IMPLEMENTATION_PLAN.md` |
 | Complete UI brief (HTML) | https://roadsafetyhackathon-six.vercel.app/margi-complete.html |
-| GitHub | https://github.com/Stormynubee/novadrive |
+| GitHub | https://github.com/Saylichangn/Margi |
 
 ---
 

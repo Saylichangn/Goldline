@@ -71,8 +71,8 @@ Margi is a native Expo Android app (`com.margi.app`) that functions completely o
 
 | Metric / Resource | Value / Local Path |
 |:---|:---|
-| **GitHub Repository** | [Stormynubee/Margi](https://github.com/Stormynubee/Margi) |
-| **Release Tag / APK** | [`v2.0.0-production`](https://github.com/Stormynubee/Margi/releases/tag/v2.0.0-production) ➔ `margi-debug.apk` |
+| **GitHub Repository** | [Saylichangn/Margi](https://github.com/Saylichangn/Margi) |
+| **Release Tag / APK** | [`v2.0.0-production`](https://github.com/Saylichangn/Margi/releases/tag/v2.0.0-production) ➔ `margi-debug.apk` |
 | **Live Brief Site** | [roadsafetyhackathon-six.vercel.app](https://roadsafetyhackathon-six.vercel.app) |
 | **Sarthi AI BFF (Vercel)**| [novadrive-eta.vercel.app](https://novadrive-eta.vercel.app) (Gemini BFF Endpoint) |
 | **Bystander Web Relay** | [novadrive-eta.vercel.app/relay](https://novadrive-eta.vercel.app/relay) (QR Decoder) |
@@ -81,7 +81,7 @@ Margi is a native Expo Android app (`com.margi.app`) that functions completely o
 | **Continuous Integration** | Automated test suite run in GitHub Actions on every commit/PR |
 | **Official Demo & Docs Folder** | [Google Drive Folder](https://drive.google.com/drive/folders/15TaAJGIMtxYrN6eIPGyIJZqyhIHqSmjQ) (Contains final submission docx and video assets) |
 | **Official Demo Video** | [Watch App Demo Video](https://drive.google.com/file/d/10k0xtmzZXehshu93oddi1c_znsuy_eti/view?usp=sharing) (5-minute walkthrough for judges) |
-| **Android Build CI** | [android-apk.yml](https://github.com/Stormynubee/Margi/actions/workflows/android-apk.yml) |
+| **Android Build CI** | [android-apk.yml](https://github.com/Saylichangn/Margi/actions/workflows/android-apk.yml) |
 
 ---
 
@@ -634,7 +634,7 @@ To build the app and execute our automated test suite locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Stormynubee/Margi.git
+git clone https://github.com/Saylichangn/Margi.git
 cd Margi/novadrive-mobile
 
 # 2. Install dependencies cleanly
@@ -858,8 +858,8 @@ During our 200+ hours of software development, we faced several complex engineer
 ## 31. Team, Resources, and In-Repo Document Map
 
 ### Team NovaDrive — CoERS / MoRTH RoadSoS 2026
-* **GitHub Repository:** [Stormynubee/Margi](https://github.com/Stormynubee/Margi)
-* **Release APK Binary:** [v2.0.0-production APK](https://github.com/Stormynubee/Margi/releases/tag/v2.0.0-production)
+* **GitHub Repository:** [Saylichangn/Margi](https://github.com/Saylichangn/Margi)
+* **Release APK Binary:** [v2.0.0-production APK](https://github.com/Saylichangn/Margi/releases/tag/v2.0.0-production)
 * **Official Demo Video:** [Watch App Demo Video](https://drive.google.com/file/d/10k0xtmzZXehshu93oddi1c_znsuy_eti/view?usp=sharing) (5-minute walkthrough for judges)
 * **Live Product Brief:** [roadsafetyhackathon-six.vercel.app](https://roadsafetyhackathon-six.vercel.app)
 * **Centre of Excellence for Road Safety (CoERS):** [coers.iitm.ac.in](https://coers.iitm.ac.in)

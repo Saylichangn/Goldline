@@ -2,7 +2,7 @@
 
 ## Purpose
 
-README hero for [Stormynubee/novadrive](https://github.com/Stormynubee/novadrive): institutional GovTech credibility for IIT Madras RoadSoS judges, not a generic hackathon gradient.
+README hero for [Saylichangn/Margi](https://github.com/Saylichangn/Margi): institutional GovTech credibility for IIT Madras RoadSoS judges, not a generic hackathon gradient.
 
 ## Aesthetic
 

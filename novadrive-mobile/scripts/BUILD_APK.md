@@ -4,7 +4,7 @@ Margi ships **without `expo-dev-client`**. The previously pinned `expo-dev-clien
 
 ## Fastest: GitHub Actions
 
-1. [Android debug APK workflow](https://github.com/Stormynubee/Margi/actions/workflows/android-apk.yml) → **Run workflow**
+1. [Android debug APK workflow](https://github.com/Saylichangn/Margi/actions/workflows/android-apk.yml) → **Run workflow**
 2. Download artifact **`margi-debug-apk`** → rename/use as **`margi-debug.apk`**
 
 ## Local build (one command)

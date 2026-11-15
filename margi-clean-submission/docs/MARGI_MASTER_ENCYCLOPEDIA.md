@@ -2,7 +2,7 @@
 
 **Status:** v1.5.0-margi-rebrand shipped (2026-05-28)  
 **Product:** **Margi** — offline-first Golden Hour co-pilot (IIT Madras RoadSoS 2026)  
-**Repo:** [github.com/Stormynubee/novadrive](https://github.com/Stormynubee/novadrive) (slug unchanged)  
+**Repo:** [github.com/Saylichangn/Margi](https://github.com/Saylichangn/Margi) (slug unchanged)  
 **Tagline:** *When signal drops, the path still holds.*
 
 This file is the **navigation hub** for all judge-facing documentation after the Margi rebrand. Deep narrative lives in [MARGI_MASTER_BRIEF.md](./MARGI_MASTER_BRIEF.md).

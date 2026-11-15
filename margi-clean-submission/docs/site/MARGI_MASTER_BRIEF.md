@@ -4,7 +4,7 @@
 
 **Project:** Margi — offline-first Golden Hour road-safety prototype
 **Team:** Team NovaDrive · IIT Madras National Road Safety Hackathon 2026 (RoadSoS track, CoERS & RBG Labs / MoRTH)
-**Repository:** [github.com/Stormynubee/Margi](https://github.com/Stormynubee/Margi)
+**Repository:** [github.com/Saylichangn/Margi](https://github.com/Saylichangn/Margi)
 **Primary client:** `novadrive-mobile/` — native Expo SDK 54 Android app (`com.margi.app`, `margi://`)
 **Optional cloud:** `novadrive/` — Next.js 14 Sarthi AI BFF + web relay (Vercel)
 **Brief site (this page):** static HTML built from this file → [roadsafetyhackathon-six.vercel.app](https://roadsafetyhackathon-six.vercel.app)
@@ -107,7 +107,7 @@ Gender-gated (self-reported on device) saffron + navy portal: SMS nearest police
 ## 3. Repository Topology
 
 ```
-roadsafetyhackathon/                  # monorepo root (git: Stormynubee/Margi)
+roadsafetyhackathon/                  # monorepo root (git: Saylichangn/Margi)
 ├── novadrive-mobile/                 # PRIMARY — Expo SDK 54 Android app (ship this)
 │   ├── app/                          # expo-router screens (tabs, emergency, naari, sarthi...)
 │   ├── src/                          # lib, components, hooks, context, theme
@@ -695,7 +695,7 @@ Deploy `novadrive/` as a **separate** Vercel project.
 
 ### From GitHub (recommended)
 
-1. Import `Stormynubee/Margi` at vercel.com/new.
+1. Import `Saylichangn/Margi` at vercel.com/new.
 2. **Root Directory → `novadrive`** (not repo root).
 3. Framework: Next.js (auto).
 4. Build & Output Settings: Install `npm install`, Build `npm run build`, **Output Directory empty** (delete any `docs/site` value — that belongs to the brief-site project).
@@ -894,9 +894,9 @@ To rebuild Margi from zero:
 
 | Resource | Link |
 |----------|------|
-| GitHub repo | https://github.com/Stormynubee/Margi |
+| GitHub repo | https://github.com/Saylichangn/Margi |
 | Live brief site (this page) | https://roadsafetyhackathon-six.vercel.app |
-| Android APK workflow | https://github.com/Stormynubee/Margi/actions/workflows/android-apk.yml |
+| Android APK workflow | https://github.com/Saylichangn/Margi/actions/workflows/android-apk.yml |
 | Google AI Studio (Gemini key) | https://aistudio.google.com/apikey |
 | CoERS event | https://coers.iitm.ac.in/event/national-road-safety-hackathon-2026/ |
 | Unstop (Indian track) | https://unstop.com/hackathons/road-safety-hackathon-2026-iit-madras-1680515 |

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Stormynubee/Margi">
+  <a href="https://github.com/Saylichangn/Margi">
     <img src="docs/assets/banner.png?v=20260528" alt="Margi — When signal drops, the path still holds. Team NovaDrive · IIT Madras RoadSoS 2026" width="100%" />
   </a>
 </p>
@@ -11,7 +11,7 @@
 <p align="center"><strong>BY TEAM NOVADRIVE</strong></p>
 
 [![RoadSoS Hackathon 2026](https://img.shields.io/badge/IIT%20Madras-RoadSoS%202026-amber?style=flat-square)](https://roadsafetyhackathon-six.vercel.app)
-[![CI](https://img.shields.io/github/actions/workflow/status/Stormynubee/Margi/ci.yml?branch=master&label=CI&style=flat-square)](https://github.com/Stormynubee/Margi/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/Saylichangn/Margi/ci.yml?branch=master&label=CI&style=flat-square)](https://github.com/Saylichangn/Margi/actions/workflows/ci.yml)
 [![Expo SDK 54](https://img.shields.io/badge/mobile-Expo%20SDK%2054-000020?style=flat-square&logo=expo)](novadrive-mobile/)
 [![Version](https://img.shields.io/badge/version-2.0.0-blue?style=flat-square)](novadrive-mobile/package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
@@ -20,7 +20,7 @@ Government-aligned, **offline-first Golden Hour research prototype** for Indian 
 
 | | |
 |---|---|
-| **GitHub** | [github.com/Stormynubee/Margi](https://github.com/Stormynubee/Margi) |
+| **GitHub** | [github.com/Saylichangn/Margi](https://github.com/Saylichangn/Margi) |
 | **Mobile app (start here)** | [novadrive-mobile/README.md](novadrive-mobile/README.md) |
 | **Judges — 5 min** | [JUDGE_START_HERE.md](JUDGE_START_HERE.md) |
 | **Changelog** | [CHANGELOG.md](CHANGELOG.md) |
@@ -204,7 +204,7 @@ Release tag: **`v2.0.0-production`** (demo milestone — not clinical production
 
 ### Fastest: release APK
 
-Download **`margi-debug.apk`** from [Releases](https://github.com/Stormynubee/Margi/releases) or CI artifacts → install → **Continue as Guest**.  
+Download **`margi-debug.apk`** from [Releases](https://github.com/Saylichangn/Margi/releases) or CI artifacts → install → **Continue as Guest**.  
 Details: [JUDGE_START_HERE.md](JUDGE_START_HERE.md)
 
 ### Build & run on device (USB)

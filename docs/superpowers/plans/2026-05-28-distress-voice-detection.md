@@ -1,6 +1,6 @@
 # Distress voice detection — implementation index
 
-> Shipped on **`master`** as [`7370f90`](https://github.com/Stormynubee/novadrive/commit/7370f90). Release tag: **`v1.4.0-distress-voice`**.
+> Shipped on **`master`** as [`7370f90`](https://github.com/Saylichangn/Margi/commit/7370f90). Release tag: **`v1.4.0-distress-voice`**.
 
 **Goal:** Stop false “Distress signal detected” popups during navigation and ambient audio while still detecting real screams/yells during an active journey or Naari safety mode.
 

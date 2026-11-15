@@ -15,7 +15,7 @@ This document is the **single source of truth** for what the repo actually ships
 | **Optional online** | Sarthi Gemini BFF (`novadrive/`), Supabase auth, HTTP dispatch hooks |
 | **Web mirror** | Bystander relay at `/relay`, static brief site at `docs/site` |
 | **Tests** | 274 passed Jest unit tests (80 suites) on FSM/routing/audio (see `novadrive-mobile/README.md`) |
-| **Judge APK** | GitHub Actions → artifact `margi-debug.apk` ([workflow](https://github.com/Stormynubee/Margi/actions/workflows/android-apk.yml)) |
+| **Judge APK** | GitHub Actions → artifact `margi-debug.apk` ([workflow](https://github.com/Saylichangn/Margi/actions/workflows/android-apk.yml)) |
 
 ---
 

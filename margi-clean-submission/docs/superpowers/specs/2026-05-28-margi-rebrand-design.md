@@ -83,7 +83,7 @@ Single source for:
 
 ## Out of scope
 
-- GitHub repo rename `Stormynubee/novadrive`
+- GitHub repo rename `Saylichangn/Margi`
 - AsyncStorage keys `nd_*`
 - Rewriting `VERSION_HISTORY.md` commit messages
 

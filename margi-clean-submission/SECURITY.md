@@ -11,7 +11,7 @@ Margi handles **sensitive medical and location data** during emergencies.
 
 ## Reporting
 
-For hackathon or post-hackathon issues, open a [GitHub Security advisory](https://github.com/Stormynubee/novadrive/security/advisories/new) or email the team lead listed in the submission doc.
+For hackathon or post-hackathon issues, open a [GitHub Security advisory](https://github.com/Saylichangn/Margi/security/advisories/new) or email the team lead listed in the submission doc.
 
 ## Out of scope (P0)
 

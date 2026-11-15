@@ -27,7 +27,7 @@ Fix options:
      npm run android:apk
 
 Or download margi-debug.apk from GitHub Actions (no local JDK needed):
-  https://github.com/Stormynubee/Margi/actions/workflows/android-apk.yml
+  https://github.com/Saylichangn/Margi/actions/workflows/android-apk.yml
 `);
   process.exit(1);
 }

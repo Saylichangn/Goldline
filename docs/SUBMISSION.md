@@ -2,7 +2,7 @@
 
 **Canonical truth:** [docs/CANON.md](CANON.md) · **Start here:** [JUDGE_START_HERE.md](../JUDGE_START_HERE.md)
 
-**Team repo:** [github.com/Stormynubee/Margi](https://github.com/Stormynubee/Margi)  
+**Team repo:** [github.com/Saylichangn/Margi](https://github.com/Saylichangn/Margi)  
 **Brief site:** [roadsafetyhackathon-six.vercel.app](https://roadsafetyhackathon-six.vercel.app)  
 **Track:** RoadSoS — AI emergency chatbot + location-based services  
 **Deadline:** May 31, 2026, 11:59 PM IST
@@ -43,7 +43,7 @@
 
 ## Build commands for judges
 
-**Preferred:** Download `margi-debug.apk` from [Releases](https://github.com/Stormynubee/Margi/releases/tag/v2.0.0-production) or [Actions artifact](https://github.com/Stormynubee/Margi/actions/workflows/android-apk.yml).
+**Preferred:** Download `margi-debug.apk` from [Releases](https://github.com/Saylichangn/Margi/releases/tag/v2.0.0-production) or [Actions artifact](https://github.com/Saylichangn/Margi/actions/workflows/android-apk.yml).
 
 **From source:**
 
@@ -58,7 +58,7 @@ npm run android:apk
 
 ## GitHub
 
-Repository: **[Stormynubee/Margi](https://github.com/Stormynubee/Margi)** — product name **Margi**; folder names `novadrive*` retained for history.
+Repository: **[Saylichangn/Margi](https://github.com/Saylichangn/Margi)** — product name **Margi**; folder names `novadrive*` retained for history.
 
 Latest release tag: **`v2.0.0-production`** (integration milestone name — see [CANON.md](CANON.md)) — [VERSION_HISTORY.md](VERSION_HISTORY.md).
 

@@ -53,7 +53,7 @@ The mobile app calls your **Next.js BFF** in `novadrive/` — not Google directl
 ### Option A — Deploy from GitHub (recommended)
 
 1. Open [vercel.com/new](https://vercel.com/new).
-2. Import **Stormynubee/Margi** (or your fork).
+2. Import **Saylichangn/Margi** (or your fork).
 3. **Root Directory:** click Edit → set to **`novadrive`** (not repo root).
 4. Framework: **Next.js** (auto-detected).
 5. **Build settings (critical for monorepo):** expand **Build and Output Settings** before first deploy:
