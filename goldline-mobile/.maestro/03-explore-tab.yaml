@@ -1,0 +1,6 @@
+appId: com.goldline.app
+---
+- launchApp
+- tapOn: "Continue as Guest"
+- tapOn: "Home"
+- assertVisible: "V "

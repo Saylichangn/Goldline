@@ -1,0 +1,6 @@
+appId: com.goldline.app
+---
+- launchApp
+- tapOn: "Continue as Guest"
+- openLink: goldline://naari-shakti
+- assertNotVisible: "Emergency Help"

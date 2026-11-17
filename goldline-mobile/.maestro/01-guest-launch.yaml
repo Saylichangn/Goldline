@@ -1,0 +1,5 @@
+appId: com.goldline.app
+---
+- launchApp
+- tapOn: "Continue as Guest"
+- assertVisible: "ENTER DRIVE MODE"

@@ -1,0 +1,77 @@
+# Judge start here — Goldline (5 minutes)
+
+**Goldline** is an offline-first Golden Hour **research prototype** for Indian highway corridors (IIT Madras RoadSoS 2026). **Canonical scope:** [docs/CANON.md](docs/CANON.md).
+
+| | |
+|---|---|
+| **Repo** | [github.com/Saylichangn/Goldline](https://github.com/Saylichangn/Goldline) |
+| **Release tag** | [`v2.0.0-production`](https://github.com/Saylichangn/Goldline/releases/tag/v2.0.0-production) (demo build — not clinical production) |
+| **Brief site** | [roadsafetyhackathon-six.vercel.app](https://roadsafetyhackathon-six.vercel.app) |
+| **Full checklist** | [docs/SUBMISSION.md](docs/SUBMISSION.md) |
+
+---
+
+## Fastest path: install the APK
+
+1. Open **GitHub → Releases → `v2.0.0-production`** and download **`goldline-debug.apk`** (or build locally — [goldline-mobile/scripts/BUILD_APK.md](goldline-mobile/scripts/BUILD_APK.md)).
+2. Install on Android (allow unknown sources if needed).
+3. Open Goldline → **Continue as Guest** → grant location when asked.
+
+No Gradle or JDK required if you use the release APK.
+
+---
+
+## Three demos (pick any)
+
+### A — Golden Hour (2 min)
+
+1. Home → **ENTER DRIVE MODE** → Trip → **Start Driving** → finish calibration.
+2. On the drive HUD → **hold SOS 3s** (top strip) → **Incident Tracker** → pick type → activation → trauma response (ICE/108 SMS intents, Maps to nearest hospital).
+3. Optional: **Manual** mode on activation → START triage → facility → GHP + QR.
+4. **Airplane mode** on GHP screen — packet text and QR still visible.
+
+### B — Bystander QR (1 min)
+
+1. Complete A until you have a GHP QR, or open **Bystander QR** on Home.
+2. Second phone: Goldline **Scan** tab, or open relay URL from QR if encoded as web link.
+3. **SMS 108** opens the OS composer — user taps **Send** (Android/iOS policy).
+
+### C — Naari Shakti (1 min)
+
+1. Medical profile → gender **Female** → Home → **NAARI SHAKTI** → **Enable Portal**.
+2. Safety Mode ON → hold **Emergency Help** 2s → distress HUD + SMS composer.
+
+---
+
+## What to look for (honest scope)
+
+| Works offline | Needs network |
+|---------------|---------------|
+| START triage FSM, SQLite facility routing (NH48 verified pack ~50 POIs), **baseline 108 mode outside pack**, GHP, QR encode | Sarthi Gemini BFF, Supabase sign-in, HTTP dispatch to configured endpoints |
+| 24+ Sarthi FAQ playbooks (en/hi/ta) | Live LLM answers |
+
+**Not production medical software:** START triage is a deterministic demo tree — not physician-certified. Crash/voice detection are **experimental**; no auto-dial to 108 without user confirming SMS. **NH48 corridor** has verified hospital phones; **other states** (e.g. Odisha) use **baseline mode** — call 108, share GPS + triage, no verified ER list.
+
+**Unit tests:** `cd goldline-mobile && npm test` — **274** passed tests across 80 suites.
+
+**APK CI:** [Android debug APK workflow](https://github.com/Saylichangn/Goldline/actions/workflows/android-apk.yml) — download artifact **`goldline-debug.apk`** if the release asset is not yet attached.
+
+---
+
+## Build from source (optional)
+
+```bash
+cd goldline-mobile
+npm install --legacy-peer-deps
+npm run android:apk
+```
+
+Requires **JDK 17+** and Android SDK. Uses a clean prebuild without `expo-dev-client` (fixes `expo-dev-menu` Kotlin errors).
+
+Phase 3 (Supabase + Vercel Sarthi): [docs/PHASE3_SETUP.md](docs/PHASE3_SETUP.md)
+
+---
+
+## Everything else
+
+Deep docs live under `docs/` — start here first. Encyclopedia: [docs/GOLDLINE_MASTER_ENCYCLOPEDIA.md](docs/GOLDLINE_MASTER_ENCYCLOPEDIA.md) · Device smoke: [goldline-mobile/docs/DEVICE_SMOKE_MATRIX.md](goldline-mobile/docs/DEVICE_SMOKE_MATRIX.md)
